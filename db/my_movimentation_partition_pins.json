@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "FRENTE",
+					"strict" : false
+				},
+				{
+					"name" : "DIREITA",
+					"strict" : false
+				},
+				{
+					"name" : "ESQUERDA",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA",
+					"strict" : false
+				},
+				{
+					"name" : "SF",
+					"strict" : false
+				},
+				{
+					"name" : "SD",
+					"strict" : false
+				},
+				{
+					"name" : "SE",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
