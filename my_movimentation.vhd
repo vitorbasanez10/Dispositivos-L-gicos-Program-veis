@@ -19,3 +19,5 @@ ARCHITECTURE behavior OF my_movimentation IS
 		SAIDA <= (NOT((SF OR SD) OR SE));
 
 END behavior;
+
+-- teste
