@@ -11,6 +11,9 @@
 </div> 
 
 
+
+##
 **Skills**
 * Knowing about yours skills is important, like movimentation and extra fuctions such as the buzzer.
 * Its movement depends directly on commands coming from the FPGA and is executed by means of dc motors.
+
