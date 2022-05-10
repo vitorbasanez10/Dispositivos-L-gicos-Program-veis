@@ -19,3 +19,5 @@ ARCHITECTURE behavior OF my_movimentation IS
 		SAIDA <= (NOT((SF OR SD) OR SE));
 
 END behavior;
+
+-- necessidade de implementar um modo de juntar as movimentações das funções direita e esquerda com a função frente
