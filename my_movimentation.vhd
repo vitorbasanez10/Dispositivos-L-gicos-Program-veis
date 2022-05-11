@@ -13,11 +13,9 @@ END my_movimentation;
 ARCHITECTURE behavior OF my_movimentation IS
  
 	BEGIN 
-		FRENTE <= (((SD AND SE) AND (NOT SF)) OR ((SE NOR SF) AND SD));
-		DIREITA <= (((SF AND (NOT SD))AND SE) OR (SF AND SD AND SE) OR ((SD NOR SE) AND SF) OR ((SF NOR SD) AND SE));
+		FRENTE <= (((SD AND SE) AND (NOT SF)) OR ((SE NOR SF) AND SD) OR ((SF NOR SD) AND SE));
+		DIREITA <= (((SF AND (NOT SD))AND SE) OR (SF AND SD AND SE) OR ((SD NOR SE) AND SF));
 		ESQUERDA <= ((SF AND SD) AND (NOT SE));
 		SAIDA <= (NOT((SF OR SD) OR SE));
 
 END behavior;
-
--- necessidade de implementar um modo de juntar as movimentações das funções direita e esquerda com a função frente
