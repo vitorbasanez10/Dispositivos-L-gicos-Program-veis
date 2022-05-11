@@ -18,3 +18,8 @@
 * Its movement depends directly on commands coming from the FPGA and is executed by means of dc motors.
 
 
+
+##
+**Objective**
+* Its primary objective is to verify that the functions are being processed well through an FPGA (even before the physical construction of the project)
+* After this, take the information from the FPGA to the Micromouse
