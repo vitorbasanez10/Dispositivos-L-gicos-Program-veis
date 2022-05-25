@@ -21,3 +21,5 @@ ARCHITECTURE behavior OF my_movimentation IS
 END behavior;
 
 -- modification needed to change code to manchine state
+-- design circuit vhdl - tocci
+
