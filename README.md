@@ -1,4 +1,4 @@
-# Robot Jack
+# Robot Mark I
 **Micromouse**
 * In 1977 Donald Christiansen challenged his readers to design and build a labyrinth-solving robot, called a “micromouse”.
 * Maze Solving robot.
