@@ -5,7 +5,7 @@ USE ieee.std_logic_1164.all;
 ENTITY my_movimentation IS
 	PORT( 
 		SF, SD, SE: IN STD_LOGIC; 
-		FRENTE, DIREITA, ESQUERDA, SAIDA: out STD_LOGIC
+		FRENTE, DIREITA, ESQUERDA, SAIDA: OUT STD_LOGIC
 		);
 
 END my_movimentation;
